@@ -3,6 +3,8 @@ import { createGlobalStyle } from "styled-components";
 export const cores = {
   branca: "#eee",
   preta: "#111",
+  vermelha: "#E66767",
+  branco_mais_claro: "#FFF8F2",
 };
 
 export const Globalcss = createGlobalStyle`

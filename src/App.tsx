@@ -9,7 +9,6 @@ function App() {
       <Globalcss />
       <div>
         <Header />
-        <Lista/>
       </div>
     </>
   );

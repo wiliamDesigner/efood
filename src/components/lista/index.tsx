@@ -1,5 +1,5 @@
 import { Background } from "./styles";
 
-const Lista = () => <Background></Background>;
+const Lista = () => <Background>lkjlkj</Background>;
 
 export default Lista;

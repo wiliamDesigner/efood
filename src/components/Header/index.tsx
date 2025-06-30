@@ -4,8 +4,10 @@ import Lista from "../lista";
 const Header = () => (
   <Headerbar>
     <Logo src={Logoimg} alt={Logo}></Logo>
-    <Paragrafo>Viva experiências gastronômicas no conforto da sua casa</Paragrafo>
-    <Lista/>
+    <Paragrafo>
+      Viva experiências gastronômicas no conforto da sua casa
+    </Paragrafo>
+    <Lista />
   </Headerbar>
 );
 

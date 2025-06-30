@@ -5,8 +5,8 @@ import { cores } from "../../Styles";
 
 export const Headerbar = styled.header`
   background-image: url(${backgroundimg});
-  width: 100%;
-  height: 100vh;
+  width: auto;
+  height: auto;
   padding: 16px 8px;
   display: flex;
   flex-direction: column;

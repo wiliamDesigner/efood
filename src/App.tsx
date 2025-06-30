@@ -1,7 +1,8 @@
 import React from "react";
 import Header from "./components/Header";
+import Cardlist from "./components/Cardlista";
 import { Globalcss } from "./Styles";
-import Lista from "./components/lista";
+
 
 function App() {
   return (

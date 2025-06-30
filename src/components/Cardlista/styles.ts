@@ -23,7 +23,7 @@ background-color: ${cores.branco_mais_claro};
 color: ${cores.vermelha};
 
 `
-export const sushi=styled.div`
+export const sushi=styled.img`
 width: 472px;
 height: 217px;
 `

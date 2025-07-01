@@ -1,10 +1,11 @@
-import { Cardes, CardItem } from "../Cardlista/styles";
+import { Cardes, CardItem, Sushi } from "../Cardlista/styles";
 import imagensuchi from "../../assets/sushi.png";
 
 const Cardlist = () => (
   <Cardes>
     <CardItem>
-      <img src={imagensuchi} alt="Imagens de suchi" />
+      <Sushi src={imagensuchi} alt="Imagens de suchi" />
+      <p>Possivel texto</p>
     </CardItem>
     <CardItem>wiliam</CardItem>
     <CardItem>Vera</CardItem>

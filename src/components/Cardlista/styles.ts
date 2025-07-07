@@ -26,9 +26,4 @@ export const CardItem = styled.div`
   font-family: "Roboto";
 `;
 
-export const Sushi = styled.img`
-  grid-template-rows: auto;
-  position: absolute;
-  width: 472px;
-  height: 217px;
-`;
+

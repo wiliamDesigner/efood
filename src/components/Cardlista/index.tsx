@@ -1,16 +1,17 @@
-import { Cardes, CardItem, Sushi } from "../Cardlista/styles";
+import { Cardes } from "../Cardlista/styles";
 import imagensuchi from "../../assets/sushi.png";
+import CardItemComponent from "../CarditenComponent";
 
 const Cardlist = () => (
-  <div>
-    <Sushi src={imagensuchi} alt="Imagens de suchi" />
-    <Cardes>
-      <CardItem>primeiro card</CardItem>
-      <CardItem>outro card2</CardItem>
-      <CardItem>outro card3</CardItem>
-      <CardItem>outro card4</CardItem>
-    </Cardes>
-  </div>
+  <>
+    <div>
+      <Cardes>
+        <CardItemComponent imagem={imagensuchi} texto="Primeiro card" />
+        <CardItemComponent imagem={imagensuchi} texto="Segundo card" />
+        <CardItemComponent imagem={imagensuchi} texto="Terceiro card" />
+      </Cardes>
+    </div>
+  </>
 );
 
 export default Cardlist;

@@ -5,7 +5,7 @@ const Header = () => (
   <Headerbar>
     <Logo src={Logoimg} alt={Logo}></Logo>
     <Paragrafo>
-      Viva experiências gastronômicas no conforto da sua casa
+      Viva experiências gastronômicas no conforto da sua casa 
     </Paragrafo>
     <Lista />
   </Headerbar>

@@ -1,16 +1,13 @@
-import React from 'react';
-import { CardContainer, CardImage, CardText } from './styles';
+import React from "react";
+import { CardImage, CardImageGroup } from "./styles";
 
 interface CardItemProps {
   imagem: string;
-  texto: string;
 }
-
-const CardItemComponent: React.FC<CardItemProps> = ({ imagem, texto }) => (
-  <CardContainer>
-    <CardImage src={imagem} alt="Imagem do card" />
-    <CardText>{texto}</CardText>
-  </CardContainer>
+const CardItemComponent: React.FC<CardItemProps> = ({ imagem }) => (
+  <CardImageGroup>
+    <CardImage src={imagem} alt="Imagem do card " />
+    <CardImage src={imagem} alt="Imagem do card " />
+  </CardImageGroup>
 );
-
 export default CardItemComponent;

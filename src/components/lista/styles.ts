@@ -12,3 +12,5 @@ export const Background = styled.h1`
   height: 280px;
   color: ${cores.vermelha};
 `;
+
+

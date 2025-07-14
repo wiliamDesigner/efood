@@ -8,8 +8,8 @@ export const Cardes = styled.div`
   gap: 40px;
   align-items: start;
   background-color: ${cores.branco_mais_claro};
-  color: ${cores.vermelha};
-  padding-top: 220px;
+  width: 1024px;
+  height: 708px;
 `;
 
 export const CardItem = styled.div`

@@ -8,7 +8,7 @@ export const Cardes = styled.div`
   gap: 40px;
   align-items: start;
   background-color: ${cores.branco_mais_claro};
-  width: 1024px;
+  width: 980px;
   height: 708px;
 `;
 

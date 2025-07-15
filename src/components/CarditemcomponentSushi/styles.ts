@@ -11,7 +11,7 @@ export const CardContainer = styled.div`
   
 `;
 
-export const CardImage = styled.img`
+export const CardImageSushi = styled.img`
   width: 472px;
   height: 217px;
   object-fit: cover;
@@ -23,9 +23,9 @@ export const CardText = styled.div`
   color: ${cores.vermelha};
 `;
 
-export const CardImageGroup = styled.div`
+export const CardImageGroupSushi = styled.div`
    display: grid;
   grid-template-columns: repeat(2, 1fr);
   grid-template-rows: auto;
-  gap: 40px; /* ou qualquer valor de espaçamento desejado */
+  gap: 40px; 
 `;

@@ -8,6 +8,8 @@ const Header = () => (
       Viva experiências gastronômicas no conforto da sua casa 
     </Paragrafo>
     <Lista />
+    
+
   </Headerbar>
 );
 

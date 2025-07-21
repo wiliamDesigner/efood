@@ -1,5 +1,4 @@
-import { CardItem } from "../Cardlista/styles";
-import { CardContainerMacarao, CardImageGroupMacarao } from "./styles";
+import { CardContainerMacarao } from "./styles";
 
 interface CardItemProps {
   imagem3: string;
@@ -11,11 +10,6 @@ const CarditemcomponentMacarao: React.FC<CardItemProps> = ({
   imagem4,
 }) => (
   <CardContainerMacarao>
-    <CardImageGroupMacarao>
-      <img src={imagem3} alt="imagem de macarrão" />
-      <img src={imagem4} alt="imagem de macarrão" />
-    </CardImageGroupMacarao>
-    <CardItem/>
   </CardContainerMacarao>
 );
 

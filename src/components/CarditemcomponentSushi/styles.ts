@@ -14,3 +14,9 @@ export const CardImageGroupSushi = styled.div`
   column-gap: 40px; 
   row-gap: 0px; 
 `;
+
+export const CardSushiWrapper = styled.div`
+  display: flex;
+  flex-direction: column;
+  margin-bottom: 80px; 
+`;

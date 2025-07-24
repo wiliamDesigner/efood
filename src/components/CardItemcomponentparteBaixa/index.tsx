@@ -9,8 +9,10 @@ const CarditemcomponentMacarao: React.FC<CardItemProps> = ({
   imagem3,
   imagem4,
 }) => (
-  <CardContainerMacarao>
-  </CardContainerMacarao>
+  <>
+  <CardContainerMacarao></CardContainerMacarao>
+  </>
+
 );
 
 export default CarditemcomponentMacarao;

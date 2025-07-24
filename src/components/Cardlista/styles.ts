@@ -23,7 +23,7 @@ export const CardItem = styled.div` //retangulo vermelho
   border: 1px solid ${cores.vermelha};
   font-size: 18px;
   font-family: "Roboto";
-
 `;
+
 
 

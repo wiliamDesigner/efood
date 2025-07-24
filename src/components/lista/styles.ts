@@ -16,5 +16,5 @@ export const Cartao = styled.div`
   display: grid;
   grid-template-columns: repeat(2, 1fr);
   grid-template-rows: auto;
-   /* ou qualquer valor de espaçamento desejado */
+   
 `;

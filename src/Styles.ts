@@ -5,6 +5,7 @@ export const cores = {
   preta: "#111",
   vermelha: "#E66767",
   branco_mais_claro: "#FFF8F2",
+  fundo_footer:"#FFEBD9"
 };
 
 export const Globalcss = createGlobalStyle`

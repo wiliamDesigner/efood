@@ -74,16 +74,25 @@ height: 24px;
 `
 
 export const AvaliacaoNotas=styled.span`
-font-size: 14px;
+font-size: 18px;
 color: ${cores.vermelha};
-margin-left: auto;
+display: flex;
+align-items: center;
+justify-content: flex-end;
+
 
 
 `
-
 export const LinhaDoTitulo = styled.div`
+  width: 96%;
   display: flex;
   align-items: center;
-  justify-content: space-between;
-  margin: 0 12px 12px 12px;
+  justify-content: space-between; 
+  margin: 0 12px 12px 12px;  
+`;
+
+export const NotaComEstrela = styled.div`
+  display: flex;
+  align-items: center;
+  gap: 8px;
 `;
